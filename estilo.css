@@ -1,0 +1,9 @@
+:root { --fondo: #fffaf2; --texto: #2b2620; --sutil: #7a7066; --acento: #d9822b; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font-size: 34px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+a { color: var(--acento); }
+.lema { color: var(--sutil); margin-top: 0; }
+.pie { margin-top: 48px; padding-top: 16px; border-top: 1px solid #eadfce; color: var(--sutil); font-size: 15px; }
